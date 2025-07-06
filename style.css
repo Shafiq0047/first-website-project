@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+
+}
+body{
+
+}
+.menu-container{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    margin: 20px 0;
+    background-color: brown;
+    height: 50px;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    
+}
+.menu  a{
+    text-decoration: None;
+    color: Black;
+}
+.button-container{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 20px;
+    
+    
+}
+.button-container button{
+    
+    background-color: black;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    
+    
+}
+.shafiq{
+    
+   
+    /* text-align: left; */
+}
+
