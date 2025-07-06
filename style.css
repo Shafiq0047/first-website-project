@@ -53,3 +53,42 @@ body{
     /* text-align: left; */
 }
 
+.after-menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.banner-container{
+    position: relative; 
+    width: 100%; 
+    overflow: hidden;
+}
+.banner-container img{
+    width: 100%; 
+    height: 500px; 
+    display: block; 
+    object-fit: cover;
+}
+.banner-text {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: black;
+    font-family: Arial, sans-serif; 
+}
+.banner-text h1 {
+    font-size: 4em; 
+    margin: 0; 
+    color: red; /* ছবির মতো লাল রঙ */
+    font-weight: bold;
+}
+.banner-text h2 {
+    font-size: 3em; 
+    margin: 0; 
+    color: black; 
+    font-weight: bold;
+}
+
