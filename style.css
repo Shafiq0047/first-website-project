@@ -10,17 +10,19 @@ body{
 }
 .menu-container{
     display: flex;
-    justify-content: right;
-    gap: 50px;
-    margin: 20px 0;
-    background-color: brown;
-    height: 50px;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #DC143C; 
+    height: 60px; 
+    padding: 0 20px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     
 }
 .menu {
     display: flex;
     gap: 30px;
     padding: 15px;
+    margin-left: auto;
     
     
 }
@@ -30,17 +32,18 @@ body{
 }
 .menu  a{
     text-decoration: None;
-    color: Black;
+    color: white;
     transition: ease-in-out;
+    font-weight: 800;
+    padding: 20px 30px;
+    transition: color 0.3s ease;
 }
 .button-container{
     
     padding: 10px;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-right: 20px;
-    
+    gap: 15px;
     
     
 }
@@ -50,21 +53,24 @@ body{
     color: black;
 }
 .button-container button{
-    
     background-color: black;
     color: white;
     border: none;
-    width: 60px;
-    height: 30px;
+    width: 80px;
+    height: 35px;
     border-radius: 5px;
     transition: ease-in-out .4s;
+    font-size: 0.9em;
+    cursor: pointer;
     
     
 }
 .shafiq{
     
-   
-    /* text-align: left; */
+   color: white;
+   font-size: 1.8em;
+   font-weight: bold;
+    
 }
 
 .after-menu{
@@ -96,7 +102,7 @@ body{
 .banner-text h1 {
     font-size: 4em; 
     margin: 0; 
-    color: red; /* ছবির মতো লাল রঙ */
+    color: red; 
     font-weight: bold;
 }
 .banner-text h2 {
@@ -122,11 +128,9 @@ body{
     gap: 20px; 
     padding: 40px 20px; 
     
-    /* background-color: #f9f9f9;  */
-    
 }
 .footer-one {
-    background-color: #fff; 
+    
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
@@ -142,14 +146,14 @@ body{
 .header-img {
     width: 100%;
     height: 300px; 
-    overflow: hidden; 
+   
 }
 
 .header-img img {
     width: 100%;
     height: 100%; 
     object-fit: cover; 
-    display: block; 
+   
 }
 .img-one-details {
     padding: 15px; 
