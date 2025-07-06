@@ -2,12 +2,8 @@
     margin: 0;
     padding: 0;
 }
-html{
 
-}
-body{
 
-}
 .menu-container{
     display: flex;
     align-items: center; 
@@ -22,9 +18,7 @@ body{
     display: flex;
     gap: 30px;
     
-    margin-left: auto;
-    
-    
+    margin-left: auto;   
 }
 .menu a:hover{
     background-color: white;
@@ -33,7 +27,6 @@ body{
 .menu  a{
     text-decoration: None;
     color: white;
-    
     font-weight: 800;
     padding: 20px 30px;
     transition: color 0.3s ease;
