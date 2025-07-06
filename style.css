@@ -15,16 +15,23 @@ body{
     margin: 20px 0;
     background-color: brown;
     height: 50px;
+    
 }
 .menu {
     display: flex;
     gap: 30px;
     padding: 15px;
     
+    
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
 }
 .menu  a{
     text-decoration: None;
     color: Black;
+    transition: ease-in-out;
 }
 .button-container{
     
@@ -35,6 +42,12 @@ body{
     margin-right: 20px;
     
     
+    
+}
+.button-container button:hover{
+    transform: scale(1.4);
+    background-color: white;
+    color: black;
 }
 .button-container button{
     
@@ -44,6 +57,7 @@ body{
     width: 60px;
     height: 30px;
     border-radius: 5px;
+    transition: ease-in-out .4s;
     
     
 }
@@ -91,4 +105,77 @@ body{
     color: black; 
     font-weight: bold;
 }
+.after-banner{
+    text-align: center;
+    margin: 30px auto;
+    
+}
+.after-banner h3{
+    font-weight: bolder;
+    font-size: 2em;
+    color: #ff7e5f
+}
+.footer-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 40px 20px; 
+    
+    /* background-color: #f9f9f9;  */
+    
+}
+.footer-one {
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    width: 600px; 
+    display: flex; 
+    flex-direction: column; 
+    transition: ease-in-out .4s;
+    
+}
+.footer-one:hover{
+    transform: scale(1.1);
+}
+.header-img {
+    width: 100%;
+    height: 300px; 
+    overflow: hidden; 
+}
 
+.header-img img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+.img-one-details {
+    padding: 15px; 
+}
+.img-one-details p {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.6;
+    margin: 0; 
+}
+.img-one-button {
+    padding: 15px;
+    padding-top: 0; 
+    text-align: left;
+}
+.img-one-button button {
+    background-color: #e74c3c;  
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+.img-one-button button:hover {
+    background-color: #c0392b; 
+}
